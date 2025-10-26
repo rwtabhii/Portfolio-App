@@ -26,4 +26,53 @@ This project showcases my skills, projects, and experiences as a **Full Stack De
 ---
 
 ## 📂 Folder Structure
+portfolio/
+├── public/ # Static assets
+├── src/
+│ ├── assets/ # Images, icons
+│ ├── components/ # Navbar, Footer, etc.
+│ ├── App.js # Root component
+│ ├── index.js # Entry file
+│ └── styles/ # CSS/SCSS files
+├── package.json
+├── README.md
+
+
+---
+
+## ⚡ Installation & Setup
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+   cd portfolio
+
+
+Install dependencies
+
+npm install
+
+
+Start development server
+
+npm start
+
+
+Open in browser
+
+http://localhost:3000
+
+🚀 Deployment
+
+Build the project:
+
+npm run build
+
+
+Deploy on Vercel, Netlify, or GitHub Pages.
+
+👨‍💻 Author
+
+Name: Abhishek Rawat
+email: devabhishekrawat@gmail.com
 

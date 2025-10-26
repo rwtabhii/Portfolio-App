@@ -1,10 +1,8 @@
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
 import React, { useEffect, useRef, useState } from "react";
-import Facebook from "../../assets/images/socials/facebook.png";
-import Instagram from "../../assets/images/socials/instagram.png";
-import LinkedIn from "../../assets/images/socials/linkedin.png";
-import "./Navbar.scss";
+
+import "./Navbar.css";
 
 const Menu = () => {
   return (
@@ -55,7 +53,7 @@ const Navbar = () => {
     <nav className="app__navbar">
       <div className="app__navbar-container">
         <div className="app__navbar-container_logo">
-          <p>Erys</p>
+          <p>DevAbhI</p>
         </div>
         <ul className="app__navbar-container_navlinks">
           <Menu />
@@ -83,7 +81,7 @@ const Navbar = () => {
         >
           <Menu />
           <div className="app__navbar-container_mobilelinks-socials">
-            <a href="https://web.facebook.com/erys.mozo/" target="blank">
+            {/* <a href="https://web.facebook.com/erys.mozo/" target="blank">
               <img src={Facebook} alt="Facebook" />
             </a>
             <a href="https://www.instagram.com/_erysmozo/" target="blank">
@@ -94,7 +92,7 @@ const Navbar = () => {
               target="blank"
             >
               <img src={LinkedIn} alt="LinkedIn" />
-            </a>
+            </a> */}
           </div>
         </ul>
       </div>

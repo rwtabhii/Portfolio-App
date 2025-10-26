@@ -1,0 +1,124 @@
+.app__projects {
+  padding: 4rem 0;
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+.app__projects-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.app__projects-container > h2 {
+  font-size: 3.75rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.app__projects-container_projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.app__projects-container_projects > .card {
+  transition: all 500ms ease;
+  max-width: 350px;
+  min-height: 350px;
+}
+
+@media (min-width: 992px) {
+  .app__projects-container_projects > .card:hover {
+    transform: scale(105%);
+  }
+}
+
+.app__projects-container_projects > .card img {
+  width: 100%;
+  object-position: 100% 0%;
+}
+
+.app__projects-container_projects > .card > .card-button {
+  padding: 1.25rem;
+}
+
+.app__projects-container_certificate {
+  margin-top: 5rem;
+}
+
+.app__projects-container_certificate > h2 {
+  font-size: 3.75rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .app__projects-container_certificate > h2 {
+    font-size: 2.75rem;
+  }
+}
+
+.app__projects-container_certificate-cert {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.app__projects-container_certificate-cert > .card__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9;
+}
+
+.app__projects-container_certificate-cert > .card__modal .cert-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.app__projects-container_certificate-cert > .card__modal .cert-container img {
+  width: 80%;
+  height: 90%;
+}
+
+@media (max-width: 600px) {
+  .app__projects-container_certificate-cert > .card__modal .cert-container img {
+    object-fit: contain;
+  }
+}
+
+.app__projects-container_certificate-cert > .card__certificate {
+  max-width: 350px;
+  min-height: 300px;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  background-color: white;
+  transition: all 500ms ease;
+}
+
+@media (min-width: 992px) {
+  .app__projects-container_certificate-cert > .card__certificate {
+    cursor: pointer;
+  }
+
+  .app__projects-container_certificate-cert > .card__certificate:hover {
+    transform: scale(105%);
+  }
+}
+
+.app__projects-container_certificate-cert > .card__certificate img {
+  width: 100%;
+  min-height: 275px;
+}
