@@ -2,13 +2,9 @@
 import irctc from "../../assets/images/projects/irctc.png";
 import photofolio from "../../assets/images/projects/photofolio.png";
 import easily from "../../assets/images/projects/easily.png";
-import AdviceGenerator from "../../assets/images/projects/advice-generator.jpg";
-import Cocktails from "../../assets/images/projects/cocktails.jpg";
-import Countries from "../../assets/images/projects/countries.jpg";
-
-import Hulu from "../../assets/images/projects/hulu.jpg";
-import MovieStar from "../../assets/images/projects/movie-star.png";
-import Realtor from "../../assets/images/projects/realtor.jpg";
+import storefleet from "../../assets/images/projects/storefleet.png";
+import chatterup from "../../assets/images/projects/chatterup.png";
+import ipod from "../../assets/images/projects/ipod.png";
 
 
 // CERTICIFICATES
@@ -22,7 +18,7 @@ export { Frontend, Backend, FullStack, DBMS, Genai };
 
 const ProjectDetails = [
   {
-    image: AdviceGenerator,
+    image: storefleet,
     title: "Storefleet App",
     text: "Developed a full-stack e-commerce web application enabling users to browse products, manage carts, and place secure online orders.",
     code : "https://github.com/vishaal98/StoreFleet",
@@ -34,21 +30,21 @@ const ProjectDetails = [
     code: "https://github.com/rwtabhii/IRCTC-App",
   },
   {
-    image: Hulu,
+    image: chatterup,
     title: "Postaway App",
     text : "Developed a social media web application enabling users to create posts, like, comment, and send friend requests with fully functional CRUD APIs",
     code: "https://github.com/rwtabhii/POSTAWAY-APP",
   },
   {
-    image: Realtor,
+    image: chatterup,
     title: "Chatter Up",
     text : "Built real-time chat using Socket.IO with message broadcasting, typing indicators, and online user tracking.",
     code: "https://github.com/rwtabhii/ChatterUp",
   },
   {
-    image: AdviceGenerator,
+    image: ipod,
     title: "Health Care Management System",
-    text: "this is my backend project that bulid on Nodejs and Express js using Rest Api and testing these Api on Postman and Database is MongoDB .",
+    text: "This is my backend project that bulid on Nodejs and Express js using Rest Api and testing these Api on Postman and Database is MongoDB .",
     code: "https://github.com/rwtabhii/Healthcare-Management-System-App",
   },
   {
@@ -58,9 +54,9 @@ const ProjectDetails = [
     code: "https://github.com/rwtabhii/PhotoFolio-App",
   },
   {
-    image: MovieStar,
+    image: ipod,
     title: "IpodApp",
-    text: "A simple iPod-like app built using **React** and **Create React App (CRA)**. It simulates the classic iPod UI with a control wheel, navigation menu, and music controls.",
+    text: "A simple iPod-like app built using React and Create React App (CRA). It simulates the classic iPod UI with a control wheel, navigation menu, and music controls.",
     code: "https://github.com/rwtabhii/ipodapp",
   },
  

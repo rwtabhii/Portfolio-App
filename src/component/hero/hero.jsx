@@ -41,7 +41,7 @@ const Hero = () => {
       {/* Subtitle */}
       <h2 className="app__hero-container_text-title">
         <ReactTyped
-          strings={["I enjoy creating stuffs."]}
+          strings={[" I am a Full Stack Developer."]}
           typeSpeed={50}
           startDelay={3000}
           showCursor={false}
@@ -52,7 +52,7 @@ const Hero = () => {
       <h3 className="app__hero-container_text-subtitle">
         <ReactTyped
           strings={[
-            "I am a Full Stack Developer",
+            "I enjoy creating stuffs.",
             "I enjoy building web applications.",
             "Let's learn from each other.",
           ]}

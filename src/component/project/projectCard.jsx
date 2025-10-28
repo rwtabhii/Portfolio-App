@@ -34,7 +34,7 @@ const ProjectsCard = ({ projects }) => {
         </CardContent>
       </CardActionArea>
       <CardActions className="card-button">
-        <a href={projects.site} target="blank">
+        {/* <a href={projects.site} target="blank">
           <Button
             variant="contained"
             disableElevation
@@ -44,7 +44,7 @@ const ProjectsCard = ({ projects }) => {
           >
             View Site
           </Button>
-        </a>
+        </a> */}
         <a href={projects.code} target="blank">
           <Button
             variant="contained"
