@@ -1,6 +1,6 @@
 import React from "react";
 import AboutSVG from "../../assets/images/about.svg";
-import "./About.css";
+import "./about.css";
 
 const About = () => {
   return (
