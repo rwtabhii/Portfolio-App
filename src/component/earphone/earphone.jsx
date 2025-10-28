@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import piano from "../../assets/audio/piano.mp3";
 import EarphoneOff from "../../assets/images/earphoneOff.svg";
 import EarphoneOn from "../../assets/images/earphoneOn.svg";
-import "./Earphone.css";
+import "./earphone.css";
 
 const Earphone = () => {
   const [sound, setSound] = useState(false);

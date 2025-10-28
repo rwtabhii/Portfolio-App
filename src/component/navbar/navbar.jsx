@@ -2,7 +2,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
 import React, { useEffect, useRef, useState } from "react";
 
-import "./Navbar.css";
+import "./navbar.css";
 
 const Menu = () => {
   return (

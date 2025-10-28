@@ -2,7 +2,7 @@ import React from "react";
 import Connection from "../../assets/images/connections.svg";
 import github from "../../assets/images/socials/github.svg";
 import linkedin from "../../assets/images/socials/linkedin.svg"
-import "./Contact.css";
+import "./contact.css";
 
 const Contact = () => {
   return (
