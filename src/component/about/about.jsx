@@ -41,7 +41,7 @@ const About = () => {
           <p>
             I'm currently looking for a Full Stack Development Role{" "}
             <a
-              href="https://nexplay.gg/"
+              href="https://drive.google.com/file/d/18YUmrCpld_qzezDfMwvWMIQY652zdO_E/view?usp=sharing"
               target="_blank"
               className="app__links"
             >
