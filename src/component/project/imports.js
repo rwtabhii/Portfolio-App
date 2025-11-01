@@ -6,6 +6,7 @@ import storefleet from "../../assets/images/projects/storefleet.png";
 import chatterup from "../../assets/images/projects/chatterup.png";
 import ipod from "../../assets/images/projects/ipod.png";
 import hms from "../../assets/images/projects/hms.webp";
+import postaway from "../../assets/images/projects/postaway.png";
 
 
 // CERTICIFICATES
@@ -31,7 +32,7 @@ const ProjectDetails = [
     code: "https://github.com/rwtabhii/IRCTC-App",
   },
   {
-    image: chatterup,
+    image: postaway,
     title: "Postaway App",
     text : "Developed a social media web application enabling users to create posts, like, comment, and send friend requests with fully functional CRUD APIs",
     code: "https://github.com/rwtabhii/POSTAWAY-APP",
