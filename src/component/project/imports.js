@@ -5,6 +5,7 @@ import easily from "../../assets/images/projects/easily.png";
 import storefleet from "../../assets/images/projects/storefleet.png";
 import chatterup from "../../assets/images/projects/chatterup.png";
 import ipod from "../../assets/images/projects/ipod.png";
+import hms from "../../assets/images/projects/hms.webp";
 
 
 // CERTICIFICATES
@@ -42,7 +43,7 @@ const ProjectDetails = [
     code: "https://github.com/rwtabhii/ChatterUp",
   },
   {
-    image: ipod,
+    image: hms,
     title: "Health Care Management System",
     text: "This is my backend project that bulid on Nodejs and Express js using Rest Api and testing these Api on Postman and Database is MongoDB .",
     code: "https://github.com/rwtabhii/Healthcare-Management-System-App",
